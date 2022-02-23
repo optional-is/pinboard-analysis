@@ -11,5 +11,7 @@ Rename the file to pinboard.json and put it into the same director as this file
 Open the terminal.app and change to the directory that contains this file
 
 ## Step 4
-Type 'php stats.php' and let it run through all the URLS
+Type 'php stats.php > output.csv' and let it run through all the URLs.
+
+This write both to stdout and stderr. You will see the progress of each URL checked on stderr and strout will build-up the csv
 
